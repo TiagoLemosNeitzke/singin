@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,800;1,900&family=Red+Hat+Display:wght@500;700;900&family=Road+Rage&family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebebeb;
+}
+
+p {
+    color: #818181;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 900;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.linha {
+    background: #818181;
+    height: 1px;
+    margin: 0 25px 10px 25px;
+}
+
+.form-container {
+    background: #fff;
+    width: 400px;
+}
+
+form {
+    padding: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #e4e4e4;
+    color: #818181;
+    padding: 0 55px 0 25px;
+}
+
+form .input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+form .input-container input::placeholder {
+    color: #818181;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    background: red;
+    font-weight: 900;
+    border: none;
+}
+
+.input-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 20px;
+    color: #818181;
+}
+
+#remember {
+    width: 10%;
+    height: 18px;
+}
+
+.options-container .checkbox-container label {
+    font-size: 0.8em;
+    display: inline;
+    width: 100%;
+    color: #818181;
+    text-align: left;
+    padding: 0 18px 0 0px;
+}
+
+.options-container a {
+    font-size: 0.8em;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 0 0 0 30px;
+}
+
+.social-media-container {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.social-media-container .social-icon-container {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    background: #375c98;
+}
+
+.social-media-container .social-icon-container:nth-child(1) {
+    background: #c54f33;
+}
+
+.social-media-container .social-icon-container:nth-child(2) {
+    background: #4dadf2;
+}
+
+.social-media-container .social-icon-container svg {
+    position: absolute;
+    top: 12px;
+    left: calc(50% - 12px);
+    color: #fff;
+}

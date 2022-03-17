@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing in</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/efbe79f44e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <h3 class="sign">Sign in</h3>
+
+        <form action="">
+            <div class="input-container">
+                <input type="text" placeholder="Username">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+            <div class="options-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Reset password</a>
+                </div>
+                
+            </div>
+            
+            <input type="submit" value="Sign in">
+            <p>or sign in with</p>
+            <div class="social-media-container">
+                <div class="social-icon-container">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="social-icon-container">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="social-icon-container">
+                    <i data-feather="twitter"></i>
+                </div>
+            </div>
+        
+        <div class="linha"></div>
+        <p>Do not have an account? <a href="#">Sign in now</a></p>
+        </form>
+
+       
+    </div>
+
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
